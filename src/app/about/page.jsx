@@ -31,7 +31,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src="https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/myimg.jpeg"
               alt=""
               width={112}
               height={112}
@@ -41,18 +41,23 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+              👋 Hello! I'm Amit Sarraf, a passionate MERN stack developer with
+              a keen eye for crafting sleek and responsive web applications. I
+              bring 2.6 years of hands-on experience in designing and
+              implementing robust solutions using MongoDB, Express.js, React.js,
+              and Node.js.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              💡 My expertise lies in building full-stack applications that
+              seamlessly integrate the power of MongoDB's NoSQL database,
+              Express.js for server-side development, React.js for dynamic and
+              engaging user interfaces, and Node.js for scalable and efficient
+              backend operations.
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
-              <svg
+              {/* <svg
                 width="185"
                 height="77"
                 viewBox="0 0 370 114"
@@ -64,7 +69,14 @@ const AboutPage = () => {
                   stroke="black"
                   strokeWidth="2"
                 />
-              </svg>
+              </svg> */}
+              <Image
+                src="/sign.jpeg"
+                alt=""
+                width={112}
+                height={112}
+                className="w-28 h-28 rounded-full object-cover"
+              />
             </div>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
@@ -119,56 +131,31 @@ const AboutPage = () => {
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Next.js
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                SCSS
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Tailwind CSS
-              </div>
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 MongoDB
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                PostgreSQL
-              </div>
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Node.js
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Nest.js
-              </div>
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Express.js
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Spring Boot
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                GraphQL
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Apollo
-              </div>
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Redux
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Framer Motion
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Three.js
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                WebGL
-              </div>
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Webpack
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Vite
+                CI/CD
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Docker
+                Serverless
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 AWS
@@ -233,7 +220,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior JavaScript Engineer
+                    Associate Software Developer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
@@ -242,11 +229,11 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024 - Present
+                    2022 - Present
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Apple
+                    Inzint Pvt Ltd.
                   </div>
                 </div>
                 {/* CENTER */}
@@ -276,7 +263,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior React Developer
+                    Software Engineer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
@@ -285,11 +272,11 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2019 - 2024{" "}
+                    2021 - 2022{" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Microsoft
+                    Appypie LLP
                   </div>
                 </div>
               </div>
@@ -308,7 +295,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2010 - 2019{" "}
+                    2010 - 2021{" "}
                   </div>
                 </div>
                 {/* CENTER */}
