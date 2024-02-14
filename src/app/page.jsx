@@ -30,10 +30,10 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-            🤝 Let's collaborate to turn your vision into a reality! Whether
-            it's building a new web application from scratch or enhancing an
-            existing one, I am dedicated to delivering high-quality, scalable,
-            and user-friendly solutions.
+            🤝 Let`&apos;`s collaborate to turn your vision into a reality!
+            Whether it`&apos;`s building a new web application from scratch or
+            enhancing an existing one, I am dedicated to delivering
+            high-quality, scalable, and user-friendly solutions.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
