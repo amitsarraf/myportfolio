@@ -15,6 +15,11 @@ const ContactPage = () => {
     setError(false);
     setSuccess(false);
 
+    console.log(
+      process.env.NEXT_PUBLIC_SERVICE_ID,
+      "process.env.NEXT_PUBLIC_SERVICE_ID"
+    );
+
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID,

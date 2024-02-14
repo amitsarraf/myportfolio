@@ -41,8 +41,8 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              👋 Hello! I`&apos;`m Amit Sarraf, a passionate MERN stack
-              developer with a keen eye for crafting sleek and responsive web
+              👋 Hello! I&apos;m Amit Sarraf, a passionate MERN stack developer
+              with a keen eye for crafting sleek and responsive web
               applications. I bring 2.6 years of hands-on experience in
               designing and implementing robust solutions using MongoDB,
               Express.js, React.js, and Node.js.
@@ -50,7 +50,7 @@ const AboutPage = () => {
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
               💡 My expertise lies in building full-stack applications that
-              seamlessly integrate the power of MongoDB`&apos;`s NoSQL database,
+              seamlessly integrate the power of MongoDB&apos;s NoSQL database,
               Express.js for server-side development, React.js for dynamic and
               engaging user interfaces, and Node.js for scalable and efficient
               backend operations.

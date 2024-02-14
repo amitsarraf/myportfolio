@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Homepage = () => {
   return (
@@ -30,19 +31,23 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-            🤝 Let`&apos;`s collaborate to turn your vision into a reality!
-            Whether it`&apos;`s building a new web application from scratch or
+            🤝 Let&apos;s collaborate to turn your vision into a reality!
+            Whether it&apos;s building a new web application from scratch or
             enhancing an existing one, I am dedicated to delivering
             high-quality, scalable, and user-friendly solutions.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
-              View My Work
-            </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
-              Contact Me
-            </button>
+            <Link href="/portfolio">
+              <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+                View My Work
+              </button>
+            </Link>
+            <Link href="/contact">
+              <button className="p-4 rounded-lg ring-1 ring-black">
+                Contact Me
+              </button>
+            </Link>
           </div>
         </div>
       </div>
